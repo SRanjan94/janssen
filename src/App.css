@@ -1,0 +1,316 @@
+@import '~antd/dist/antd.css';
+
+ .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.logo h1 {
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #8041d1;
+}
+
+.site-layout-background {
+  background: #fff;
+  margin-top: 0px;
+  height: 90px;
+}
+
+.ant-layout-sider {
+  background-color: #fcfcfc;
+  width: 250px;
+}
+
+.trigger {
+  padding: 0 2px;
+  font-size: 18px;
+  margin-top: 50px;
+  margin-left: 0px;
+  line-height: 6px;
+  cursor: pointer;
+  transition: color 0.3s;
+
+}
+
+.trigger:hover {
+  color: #3104fa;
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+.site-layout-header .menu-heading {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.site-layout-header .menu-heading h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.search-bar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: -5%;
+  margin-left: 20%;
+  width: 250px;
+}
+
+.search-bar input {
+  height: 30px;
+  font-size: 16px;
+}
+
+.search-bar .ant-input-suffix .anticon {
+  font-size: 16px;
+  color: #999999;
+}
+
+.search-bar .ant-input-suffix .ant-btn {
+  padding: 6px;
+}
+
+.bell-icon {
+  margin-top: -65px;
+  margin-left: 85%;
+  cursor: pointer;
+}
+
+.notification-message {
+  position: absolute;
+  top: 45px;
+  left: 81%; 
+  font-size: 14px;
+  padding: 8px 16px;
+  background-color: #134444;
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+}
+
+.profile-icon {
+  display: flex;
+  align-items: flex-start;
+  margin-top: -65px;
+  margin-left: 90%;
+}
+
+/* .currency {
+  font-style: normal;
+  position: relative; 
+  top: 0;
+  left: 88%;
+  margin-left: auto; 
+  margin-right: 16px; 
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #080808;
+  cursor: pointer;
+} */
+
+/* .header-content {
+  display: flex;
+  align-items: center;
+  position: relative;
+} */
+
+/* .header-cascader {
+  margin-top: -90px;
+  margin-left: 35%;
+  width: 10px;
+} */
+.tableWithHeader{
+  background: white;
+  padding: 2%;
+}
+.table_heading_container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.table-heading {
+  font-size: 18px;
+  font-weight: bold;
+  /* margin-bottom: 10px; */
+  
+}
+
+.ant-table-wrapper {
+  margin-top: 16px;
+}
+
+.ant-table-thead > tr > th {
+  background-color: #ffffff;
+}
+
+.ant-table-tbody > tr > td {
+  text-align: left;
+}
+
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td {
+  padding: 8px;
+}
+
+.ant-table-row {
+  transition: background-color 0.3s;
+}
+
+.ant-table-row:hover {
+  background-color: #e9e8e8;
+}
+
+.last-row td {
+  background-color: rgba(3, 177, 61, 0.986);
+}
+
+.table-row td:first-child {
+  background-color: transparent;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.button-container button + button {
+  margin-left: 8px;
+}
+
+.segmented {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2px;
+  background: rgba(0, 0, 0, 0.06);
+  border-radius: 2px;
+  font-weight: 400;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.keys-frame {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: rgba(236, 236, 236, 0.06);
+  border-radius: 2px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.keys-label {
+  margin-right: 10px;
+}
+
+.keys-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.keys-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.keys-item {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+
+.keys-checkbox {
+  margin-right: 5px;
+}
+
+.keys-color {
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  border-radius: 2px;
+}
+
+.keys-color-1 {
+  background-color: #ff0000;
+}
+
+.keys-color-2 {
+  background-color: #ff9900;
+}
+
+.keys-color-3 {
+  background-color: #ffff00;
+}
+
+.keys-color-4 {
+  background-color: #00ff00;
+}
+
+.keys-color-5 {
+  background-color: #0000ff;
+}
+
+.keys-text {
+  white-space: nowrap;
+} 
+
+
+/* .sider {
+  height: 100vh;
+  background-color: #fff;
+  overflow: auto;
+} */
+
+/* .logo {
+  height: 32px;
+  margin: 16px;
+} */
+
+/* .menu {
+  padding: 16px 0;
+}  */
+
+ /* .menu-item {
+  display: flex;
+  align-items: center;
+  height: 48px;
+}
+
+ .menu-item span {
+  margin-left: 12px;
+}  */
+
+/* .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
